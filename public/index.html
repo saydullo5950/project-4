@@ -183,21 +183,24 @@
         </div>
     </div>
     <div class="max-w-7xl mx-auto sm:px-11 px-4 py-8">
-        <div class="grid grid-cols-1 lg:grid-cols-3 items-center max-w-96 lg:max-w-7xl mx-auto">
-            <img src="./images/login-image.png" alt="login-image" class="hidden md:block">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center max-w-96 lg:max-w-7xl mx-auto">
             <div class="border border-gray-400 rounded-lg sm:p-8 p-4">
                 <h2 class="text-center text-3xl font-semibold">
                     Login in
                 </h2>
-                <form action="#" class="flex flex-col mt-8">
-                    <input type="name" name="name" placeholder="Enter your name"
-                        class="py-3 px-3 border border-gray-400 rounded-lg">
-                    <input type="name" name="name" placeholder="Enter your last name"
-                        class="py-3 px-3 border border-gray-400 rounded-lg mt-4">
-                    <input type="email" name="email" placeholder="Enter your email"
-                        class="py-3 px-3 border border-gray-400 rounded-lg mt-4">
-                    <input type="password" name="password" placeholder="Enter your password"
-                        class="py-3 px-3 border border-gray-400 rounded-lg mt-4">
+                <form action="#" class="sm:flex flex-col mt-8">
+                    <div class="sm:flex items-center gap-2 sm:space-y-0 space-y-4">
+                        <input type="name" name="name" placeholder="Enter your name"
+                            class="py-3 px-3 border w-full border-gray-400 rounded-lg">
+                        <input type="name" name="name" placeholder="Enter your last name"
+                            class="py-3 px-3 border w-full border-gray-400 rounded-lg ">
+                    </div>
+                    <div class="sm:flex items-center gap-2 mt-4 sm:space-y-0 space-y-4">
+                        <input type="email" name="email" placeholder="Enter your email"
+                            class="py-3 px-3 border w-full border-gray-400 rounded-lg">
+                        <input type="password" name="password" placeholder="Enter your password"
+                            class="py-3 px-3 border w-full border-gray-400 rounded-lg">
+                    </div>
                     <select class="border rounded-lg border-gray-700 w-20 py-2 px-1 mt-4">
                         <option>
                             boy
@@ -206,7 +209,19 @@
                             girl
                         </option>
                     </select>
-                    <div class="flex justify-between">
+                    <div class="h-52 sm:h-full p-4 border border-gray-300 mt-4">
+                        <h2 class="text-lg sm:text-xl">From which application to open</h2>
+                        <input id="google" class="peer/google mt-8" type="radio" name="status" checked />
+                        <label for="google" class="peer-checked/google:text-sky-500">Google</label>
+
+                        <input id="yandex" class="peer/yandex" type="radio" name="status" />
+                        <label for="yandex" class="peer-checked/yandex:text-sky-500">Yandex</label>
+                        <p class="hidden peer-checked/google:block text-gray-500 mt-4">Lorem ipsum dolor sit,
+                            adipisicing.
+                        </p>
+                        <p class="hidden peer-checked/yandex:block text-gray-500 mt-4">Lorem ipsum dolor</p>
+                    </div>
+                    <div class=" flex justify-between">
                         <a href="#" class="text-blue-950 text-lg mt-4">
                             Help
                         </a>
@@ -220,7 +235,7 @@
                     </button>
                 </form>
             </div>
-            <img src="./images/login-image.png" alt="login-image" class="hidden md:block">
+            <img src="./images/login-image.png" alt="login-image" class="hidden md:block w-full">
         </div>
     </div>
     <div class="max-w-7xl mx-auto sm:px-11 px-4 py-8">
