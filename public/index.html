@@ -238,211 +238,227 @@
             <img src="./images/login-image.png" alt="login-image" class="hidden md:block w-full">
         </div>
     </div>
-    <div class="max-w-7xl mx-auto sm:px-11 px-4 py-8">
-        <h2 class="text-2xl font-extrabold text-center">
-            Cards
+    <div class="flex flex-col items-center max-w-7xl mx-auto sm:px-11 px-4 py-8">
+        <h2 class="text-2xl font-bold text-center">
+            Select the cards
         </h2>
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
-            <div class="border rounded-lg border-gray-400 sm:p-8 p-4">
-                <h2 class="text-xl font-bold">
-                    Card
-                </h2>
-                <div class="flex items-end mt-4">
-                    <h2 class="text-4xl font-bold">
-                        34$
+        <input id="card" class="size-5 peer/card mt-8" type="radio" name="status" checked />
+        <label for="card" class="peer-checked/card:text-sky-500 text-xl" checked>Cards</label>
+        <input id="cards" class="size-5 peer/cards mt-4" type="radio" name="status" />
+        <label for="cards" class="peer-checked/cards:text-sky-500 text-xl" checked>Image
+            cards</label>
+        <div class="hidden peer-checked/card:block max-w-7xl mx-auto sm:px-11 py-8">
+            <h2 class="text-2xl font-extrabold text-center">
+                Cards
+            </h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
+                <div class="border rounded-lg border-gray-400 sm:p-8 p-4">
+                    <h2 class="text-xl font-bold">
+                        Card
                     </h2>
-                    <p class="text-lg">
-                        /m
+                    <div class="flex items-end mt-4">
+                        <h2 class="text-4xl font-bold">
+                            34$
+                        </h2>
+                        <p class="text-lg">
+                            /m
+                        </p>
+                    </div>
+                    <p class="text-gray-500 mt-4">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero, dignissimos.
                     </p>
+                    <ul class="space-y-5">
+                        <li>
+                            <a href="#" class="text-gray-500">
+                                5 products
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-gray-500">
+                                Up to 1,000 subscribers
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-gray-500">
+                                Basic analytics
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-gray-500">
+                                Advanced analytics
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-gray-500">
+                                48-hour support response time
+                            </a>
+                        </li>
+                    </ul>
+                    <button
+                        class="bg-blue-800 w-full text-white hover:text-blue-800 hover:bg-white transition delay-150 duration-300 ease-in-out rounded-lg py-4 px-6 mt-4">
+                        Browse vehicles
+                    </button>
                 </div>
-                <p class="text-gray-500 mt-4">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero, dignissimos.
-                </p>
-                <ul class="space-y-5">
-                    <li>
-                        <a href="#" class="text-gray-500">
-                            5 products
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="text-gray-500">
-                            Up to 1,000 subscribers
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="text-gray-500">
-                            Basic analytics
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="text-gray-500">
-                            Advanced analytics
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="text-gray-500">
-                            48-hour support response time
-                        </a>
-                    </li>
-                </ul>
-                <button
-                    class="bg-blue-800 w-full text-white hover:text-blue-800 hover:bg-white transition delay-150 duration-300 ease-in-out rounded-lg py-4 px-6 mt-4">
-                    Browse vehicles
-                </button>
-            </div>
-            <div class="border rounded-lg border-gray-400 sm:p-8 p-4">
-                <h2 class="text-xl font-bold">
-                    Card
-                </h2>
-                <div class="flex items-end mt-4">
-                    <h2 class="text-4xl font-bold">
-                        34$
+                <div class="border rounded-lg border-gray-400 sm:p-8 p-4">
+                    <h2 class="text-xl font-bold">
+                        Card
                     </h2>
-                    <p class="text-lg">
-                        /m
+                    <div class="flex items-end mt-4">
+                        <h2 class="text-4xl font-bold">
+                            34$
+                        </h2>
+                        <p class="text-lg">
+                            /m
+                        </p>
+                    </div>
+                    <p class="text-gray-500 mt-4">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero, dignissimos.
                     </p>
+                    <ul class="space-y-5">
+                        <li>
+                            <a href="#" class="text-gray-500">
+                                5 products
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-gray-500">
+                                Up to 1,000 subscribers
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-gray-500">
+                                Basic analytics
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-gray-500">
+                                Advanced analytics
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-gray-500">
+                                48-hour support response time
+                            </a>
+                        </li>
+                    </ul>
+                    <button
+                        class="bg-blue-800 w-full text-white hover:text-blue-800 hover:bg-white transition delay-150 duration-300 ease-in-out rounded-lg py-4 px-6 mt-4">
+                        Browse vehicles
+                    </button>
                 </div>
-                <p class="text-gray-500 mt-4">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero, dignissimos.
-                </p>
-                <ul class="space-y-5">
-                    <li>
-                        <a href="#" class="text-gray-500">
-                            5 products
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="text-gray-500">
-                            Up to 1,000 subscribers
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="text-gray-500">
-                            Basic analytics
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="text-gray-500">
-                            Advanced analytics
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="text-gray-500">
-                            48-hour support response time
-                        </a>
-                    </li>
-                </ul>
-                <button
-                    class="bg-blue-800 w-full text-white hover:text-blue-800 hover:bg-white transition delay-150 duration-300 ease-in-out rounded-lg py-4 px-6 mt-4">
-                    Browse vehicles
-                </button>
-            </div>
-            <div class="border rounded-lg border-gray-400 sm:p-8 p-4">
-                <h2 class="text-xl font-bold">
-                    Card
-                </h2>
-                <div class="flex items-end mt-4">
-                    <h2 class="text-4xl font-bold">
-                        34$
+                <div class="border rounded-lg border-gray-400 sm:p-8 p-4">
+                    <h2 class="text-xl font-bold">
+                        Card
                     </h2>
-                    <p class="text-lg">
-                        /m
+                    <div class="flex items-end mt-4">
+                        <h2 class="text-4xl font-bold">
+                            34$
+                        </h2>
+                        <p class="text-lg">
+                            /m
+                        </p>
+                    </div>
+                    <p class="text-gray-500 mt-4">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero, dignissimos.
                     </p>
+                    <ul class="space-y-5">
+                        <li>
+                            <a href="#" class="text-gray-500">
+                                5 products
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-gray-500">
+                                Up to 1,000 subscribers
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-gray-500">
+                                Basic analytics
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-gray-500">
+                                Advanced analytics
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-gray-500">
+                                48-hour support response time
+                            </a>
+                        </li>
+                    </ul>
+                    <button
+                        class="bg-blue-800 w-full text-white hover:text-blue-800 hover:bg-white transition delay-150 duration-300 ease-in-out rounded-lg py-4 px-6 mt-4">
+                        Browse vehicles
+                    </button>
                 </div>
-                <p class="text-gray-500 mt-4">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero, dignissimos.
-                </p>
-                <ul class="space-y-5">
-                    <li>
-                        <a href="#" class="text-gray-500">
-                            5 products
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="text-gray-500">
-                            Up to 1,000 subscribers
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="text-gray-500">
-                            Basic analytics
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="text-gray-500">
-                            Advanced analytics
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="text-gray-500">
-                            48-hour support response time
-                        </a>
-                    </li>
-                </ul>
-                <button
-                    class="bg-blue-800 w-full text-white hover:text-blue-800 hover:bg-white transition delay-150 duration-300 ease-in-out rounded-lg py-4 px-6 mt-4">
-                    Browse vehicles
-                </button>
             </div>
         </div>
-    </div>
-    <div class="max-w-7xl mx-auto sm:px-11 px-4 py-8">
-        <h2 class="text-2xl font-extrabold text-center">
-            image Cards
-        </h2>
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
-            <div class="border rounded-lg border-gray-400">
-                <img src="./images/login-image.png" alt="login-image" class="w-full h-60">
-                <div class="sm:p-8 p-4">
-                    <h2 class="text-xl font-bold">
-                        image Card
-                    </h2>
-                    <p class="mt-4 sm:text-base text-xs">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex recusandae provident eos minima
-                        ratione! Et eos, deleniti, molestias aliquid commodi assumenda fugit facilis atque beatae
-                        reiciendis
-                        tempora adipisci eum corporis.
-                    </p>
-                    <button
-                        class="bg-blue-800 w-full text-white hover:text-blue-800 hover:bg-white transition delay-150 duration-300 ease-in-out rounded-lg py-4 px-6 mt-4">
-                        Browse vehicles
-                    </button>
+        <div class="hidden peer-checked/cards:block max-w-7xl mx-auto sm:px-11 py-8">
+            <h2 class="text-2xl font-extrabold text-center">
+                image Cards
+            </h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
+                <div class="border rounded-lg border-gray-400">
+                    <img src="./images/login-image.png" alt="login-image" class="w-full h-60">
+                    <div class="sm:p-8 p-4">
+                        <h2 class="text-xl font-bold">
+                            image Card
+                        </h2>
+                        <p class="mt-4 sm:text-base text-xs">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex recusandae provident eos
+                            minima
+                            ratione! Et eos, deleniti, molestias aliquid commodi assumenda fugit facilis atque
+                            beatae
+                            reiciendis
+                            tempora adipisci eum corporis.
+                        </p>
+                        <button
+                            class="bg-blue-800 w-full text-white hover:text-blue-800 hover:bg-white transition delay-150 duration-300 ease-in-out rounded-lg py-4 px-6 mt-4">
+                            Browse vehicles
+                        </button>
+                    </div>
                 </div>
-            </div>
-            <div class="border rounded-lg border-gray-400">
-                <img src="./images/login-image.png" alt="login-image" class="w-full h-60">
-                <div class="sm:p-8 p-4">
-                    <h2 class="text-xl font-bold">
-                        image Card
-                    </h2>
-                    <p class="mt-4 sm:text-base text-xs">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex recusandae provident eos minima
-                        ratione! Et eos, deleniti, molestias aliquid commodi assumenda fugit facilis atque beatae
-                        reiciendis
-                        tempora adipisci eum corporis.
-                    </p>
-                    <button
-                        class="bg-blue-800 w-full text-white hover:text-blue-800 hover:bg-white transition delay-150 duration-300 ease-in-out rounded-lg py-4 px-6 mt-4">
-                        Browse vehicles
-                    </button>
+                <div class="border rounded-lg border-gray-400">
+                    <img src="./images/login-image.png" alt="login-image" class="w-full h-60">
+                    <div class="sm:p-8 p-4">
+                        <h2 class="text-xl font-bold">
+                            image Card
+                        </h2>
+                        <p class="mt-4 sm:text-base text-xs">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex recusandae provident eos
+                            minima
+                            ratione! Et eos, deleniti, molestias aliquid commodi assumenda fugit facilis atque
+                            beatae
+                            reiciendis
+                            tempora adipisci eum corporis.
+                        </p>
+                        <button
+                            class="bg-blue-800 w-full text-white hover:text-blue-800 hover:bg-white transition delay-150 duration-300 ease-in-out rounded-lg py-4 px-6 mt-4">
+                            Browse vehicles
+                        </button>
+                    </div>
                 </div>
-            </div>
-            <div class="border rounded-lg border-gray-400">
-                <img src="./images/login-image.png" alt="login-image" class="w-full h-60">
-                <div class="sm:p-8 p-4">
-                    <h2 class="text-xl font-bold">
-                        image Card
-                    </h2>
-                    <p class="mt-4 sm:text-base text-xs">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex recusandae provident eos minima
-                        ratione! Et eos, deleniti, molestias aliquid commodi assumenda fugit facilis atque beatae
-                        reiciendis
-                        tempora adipisci eum corporis.
-                    </p>
-                    <button
-                        class="bg-blue-800 w-full text-white hover:text-blue-800 hover:bg-white transition delay-150 duration-300 ease-in-out rounded-lg py-4 px-6 mt-4">
-                        Browse vehicles
-                    </button>
+                <div class="border rounded-lg border-gray-400">
+                    <img src="./images/login-image.png" alt="login-image" class="w-full h-60">
+                    <div class="sm:p-8 p-4">
+                        <h2 class="text-xl font-bold">
+                            image Card
+                        </h2>
+                        <p class="mt-4 sm:text-base text-xs">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex recusandae provident eos
+                            minima
+                            ratione! Et eos, deleniti, molestias aliquid commodi assumenda fugit facilis atque
+                            beatae
+                            reiciendis
+                            tempora adipisci eum corporis.
+                        </p>
+                        <button
+                            class="bg-blue-800 w-full text-white hover:text-blue-800 hover:bg-white transition delay-150 duration-300 ease-in-out rounded-lg py-4 px-6 mt-4">
+                            Browse vehicles
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
